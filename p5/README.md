@@ -1,3 +1,5 @@
+Intro to Machine Learning   
+####
 * Supervised Classification
 * Dataset and questions
 * Regressions and outliers
