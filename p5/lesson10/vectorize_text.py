@@ -67,14 +67,14 @@ with open("from_sara.txt", "r") as from_sara, open("from_chris.txt", "r") as fro
 pickle.dump( word_data, open("your_word_data.pkl", "w") )
 pickle.dump( from_data, open("your_email_authors.pkl", "w") )
 
-##print word_data[152]
+print word_data[152]
 
 ### in Part 4, do TfIdf vectorization here
 from sklearn.feature_extraction.text import TfidfVectorizer
 vectorizer = TfidfVectorizer(stop_words = 'english', lowercase = True)
 vectorizer.fit_transform(word_data)
 feature_names = vectorizer.get_feature_names()
-## print len(feature_names)
+print len(feature_names)
 print feature_names[34597]
 
 
