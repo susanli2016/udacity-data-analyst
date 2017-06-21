@@ -17,3 +17,5 @@ This repository contains project work for Udacity's [Data Analyst Nanodegree](ht
 * Data Analysis with R
 * Intro to Machine Learning
 * Data Visualization with Tableau
+
+![Udacity Data Analyst Nanodegree certificate](certificate.pdf)
